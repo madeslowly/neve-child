@@ -1,0 +1,8 @@
+.git/
+sass
+.sass-cache/
+.sass-lint.yml
+.gitignore
+_scripts/
+.DS_Store
+rsync-exclusions.txt

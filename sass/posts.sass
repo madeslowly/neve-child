@@ -1,0 +1,84 @@
+/*!
+  Campaigns page. We are using WP list recent posts block with custom habdle 'oxpa-posts-campaigns'
+  */
+.wp-block-latest-posts__list.is-grid.oxpa-posts-campaigns
+  //margin: 10vw
+  justify-content: space-between
+
+  & > li
+    max-width: 28%
+    padding: 0
+    margin-bottom: 5rem
+    border: solid 1px $oxpa-copper
+    border-radius: 12px
+    overflow: hidden
+    background-color: rgba($oxpa-blue, .05)
+
+    & > div > img
+      width: 100%
+      height: 200px
+      object-fit: cover
+
+    & > a
+      padding: 1rem .5rem
+      text-transform: uppercase
+      text-decoration: none
+      color: $oxpa-copper
+      font-weight: 600
+      transition: .3s ease-in-out
+
+      &:hover
+        color: $oxpa-green
+
+    & > .wp-block-latest-posts__post-excerpt
+      padding: 1rem .5rem
+
+.wp-block-latest-posts__list.oxpa-posts-meetings
+  & > li
+    padding: 1rem
+    margin: 0
+    border-bottom: solid 1px rgba($oxpa-copper,.5)
+
+    & > a
+      text-decoration: none
+      text-transform: uppercase
+      font-weight: 600
+      font-size: 1.4rem
+
+    & > time
+      font-weight: 600
+      font-size: 1.2rem
+      padding-bottom: 1rem
+
+      &::before
+        font-family: "Font Awesome 5 Free"
+        font-weight: 900
+        content: "\f073"
+        padding-right: .8rem
+
+    & > .wp-block-latest-posts__post-excerpt > a
+      display: block
+
+  & > :nth-child(even)
+    background-color: rgba($oxpa-green, .1)
+
+
+
+@media screen and (max-width: 768px)
+
+  .site-footer-body
+    padding: 5rem 1rem
+    flex-direction: column
+
+    & > .col
+      width: 100%
+      padding-bottom: 3rem
+
+    & > .col:first-child
+      width: 100%
+    & > .col:last-child
+      //width: 50%
+      align-self: stretch
+
+  .site-footer-base
+    flex-direction: column-reverse

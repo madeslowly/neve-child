@@ -1,0 +1,15 @@
+_scripts
+
+.sass-cache
+
+.sass-lint.yml
+
+Gemfile.lock
+
+*.DS_Store
+
+*.sql
+
+*.css
+
+*.map
