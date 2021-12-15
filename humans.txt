@@ -1,0 +1,32 @@
+     __  __   __    __       __
+|\/||__||  \ |__   [__  |   |  | | | | |  \___/
+|  ||  ||__/ |__   ___] |__ |__| |_|_| |__  |
+
+Hello human
+
+/* TEAM */
+
+ Developer - Made Slowly
+
+   Author:  Arran Curran
+   Contact: arran@madeslowly.co.uk
+   URL:     madeslowly.co.uk
+   Twitter: @made_slowly
+
+
+ Content - Oxford Pedestrians Association
+
+   Author:
+   URL:     oxpa.org.uk
+   Contact: admin@oxpa.org.uk
+   Twitter: @OxfdPedestrians
+
+
+ Looking to collaborate? Get in touch.
+
+
+/* SITE */
+
+ Standards: HTML5, CSS3
+
+ Software: WordPress, Sass, Atom, Graphic, Affinity Photo

@@ -14,14 +14,14 @@
 
 @import "_colors"
 
-@import "posts"
+@import "_posts"
 
 body:not(.home)
   #content
     margin-top: 154px
 
 a
-  transition: .8 ease-in-out
+  transition: all .2s ease-in-out
 
 nav.nv-navbar
    position: fixed
@@ -128,3 +128,23 @@ nav.nv-navbar.nav-scrolled
     //background-color: red
     //color: #000
     width: 100%
+
+
+@media screen and (max-width: 768px)
+
+  .site-footer-body
+    padding: 5rem 1rem
+    flex-direction: column
+
+    & > .col
+      width: 100%
+      padding-bottom: 3rem
+
+    & > .col:first-child
+      width: 100%
+    & > .col:last-child
+      //width: 50%
+      align-self: stretch
+
+  .site-footer-base
+    flex-direction: column-reverse
