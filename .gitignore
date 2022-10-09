@@ -1,14 +1,5 @@
-_scripts
-
-.sass-cache
-
-.sass-lint.yml
-
-Gemfile.lock
-
-*.DS_Store
-
-*.sql
+# Most common things are ignored in ~/.gitignore which is enabled globally with
+# `git config --global core.excludesfile ~/.gitignore`
 
 *.css
 
